@@ -1,7 +1,7 @@
 flowsPanel <-
-function(bed.table, order.flows=c("T","A","C","G"),genom=BSgenome.Hsapiens.UCSC.hg19,ret.seq=FALSE) {
+function(bed.table, genom, order.flows=c("T","A","C","G"), ret.seq=FALSE) {
 # Extract amplicon sequences from genome and calculate flows
-    bed.seqs <- extractSeqs(bed.table,genom=genom)
+    bed.seqs <- extractSeqs(bed.table,genom)
     bed.flows <- extractFlows(bed.seqs, order.flows)
     out.table <- cbind(bed.table, bed.flows)
 # Print statistics

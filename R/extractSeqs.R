@@ -1,5 +1,5 @@
 extractSeqs <-
-function(bed.table, genom=BSgenome.Hsapiens.UCSC.hg19) {
+function(bed.table, genom) {
     n <- nrow(bed.table)
     seqs <- rep(NA, n)
     cat("Extracting sequences (. = 10 amplicons):\n")
