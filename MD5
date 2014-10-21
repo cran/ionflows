@@ -1,0 +1,15 @@
+bd39699a3d8cbead6e154990298e516c *DESCRIPTION
+77c4c0afdc8bf4117bfe7bda54e3b4f8 *NAMESPACE
+1a0b306f777fae34d6dd089441753adf *R/calcFlows.R
+4fc92c504c5a867d071b5d3d487f7a7c *R/extractFlows.R
+97e1823a64b4109c5643dad034e73f62 *R/extractSeqs.R
+2beb811611ac31678f9d68d2ebc56015 *R/flowsPanel.R
+08bb81e7ce43c75a2289fe5ff284d761 *R/flowsRandom.R
+385b7018d28c94a5d0304fbc96cdc855 *R/ionflows-internal.R
+badb643c7e201005f473683da2fe0bb9 *R/readBed.R
+cdd2541b1e32a71463954b85cfcca6d6 *data/chp2.rda
+27e34442500dce90139b541c7ec55ae7 *man/chp2.Rd
+c43abdc4f9baaac7098a125c0d6f43ff *man/flowsPanel.Rd
+f0af1bece457e54aef422fd50a275174 *man/flowsRandom.Rd
+dcdea302aef8562ee131e87ce5c70651 *man/ionflows-package.Rd
+03764a22dbee9ff8fcd290e3e1378d7b *man/readBed.Rd
